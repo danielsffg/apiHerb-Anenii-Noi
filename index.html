@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link id="theme" rel="stylesheet" href="css/light.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="icon" href="images/icon.good-removebg.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+
+    <title>ApiHerb</title>
+</head>
+<body>
+    <header id="header">
+        <img class="logo" src="images/icon.good-removebg.png">
+        <navbar id="navbar">
+            <a class="meniu" href="index.html" onclick="mobileMenuRefresh();">Acasă</a>
+            <a class="meniu" href="#sectiune-despre" onclick="mobileMenuRefresh();">Despre</a>
+            <a class="meniu" href="#sectiune-produse" onclick="mobileMenuRefresh();">Produse</a>
+            <a class="meniu" href="pages/contacte.html" onclick="mobileMenuRefresh();">Contacte</a>
+            <a class="meniu" href="#sectiune-faq" onclick="mobileMenuRefresh();">FAQ</a>
+
+            <label class="schimba-tema">
+                <ion-icon class="meniu" name="moon-outline" id="buton-tema" onclick="toggleTheme()" ></ion-icon>
+            </label>
+         
+        </navbar>
+
+        <i id="hamburger" onclick="mobileMenu()" class="fa-solid fa-bars"></i>
+    </header>
+   
+    <main>
+        <section id="index">
+            <div class="index-info">
+                
+                <div class="intro-content">
+                    <h1>ApiHerb</h1>
+                    <h4>Produse apicole & Cosmetice</h4>
+
+                    <a class="intro-btn" href="#sectiune-produse">Produse</a>
+                    <a class="intro-btn" href="pages/contacte.html">Contactează-ne</a>
+                </div>
+
+                <div class="custom-shape-divider-bottom-1683301408">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                    </svg>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="sectiune-despre">
+            <div id="titlu-and-border-section-despre">
+            <h1 class="titlu-sectiune-sau-pagina">Despre noi</h1>
+            <div class="border"></div>
+            <div class="border-2"></div>
+            </div>
+            <p>O întreprindere de produse apicole, ceaiuri și creme naturale este o afacere specializată în producția și vânzarea de produse derivate din albine, ceaiuri și creme obținute din ingrediente naturale. Această întreprindere pune accentul pe utilizarea resurselor naturale și pe promovarea beneficiilor acestora pentru sănătate și frumusețe.</p>
+
+            <div class="container-despre">
+                <div class="column"  data-aos="fade-right">
+                    <img src="images/background2.jpeg" alt="Image 1">
+                    <h2>Produse naturale de calitate</h2>
+                    <p>Interprinderea este specializată în producerea și comercializarea produselor apicole, ceaiurilor și
+                        cosmeticii naturale, folosind ingrediente de calitate superioară, ecologice și sustenabile.</p>
+                </div>
+                <div class="column" data-aos="fade-left">
+                    <img src="images/img-despre-floare-alba.jpg" alt="Image 2">
+                    <h2>Standarde ridicate</h2>
+                    <p>Compania are o echipă de experți care lucrează împreună pentru a asigura că produsele sunt de cea mai bună calitate, respectă cele mai înalte standarde de igienă și sunt sigure pentru consum.</p>
+                </div>
+                <div class="column" data-aos="fade-right" >
+                    <img src="images/img-depre-floare-albastr.jpg" alt="Image 3">
+                    <h2>Cosmetică naturală și sigură</h2>
+                    <p>Cosmeticele naturale sunt fabricate cu ingrediente naturale, cum ar fi uleiurile esențiale, extractele de plante și alte substanțe organice. Aceste produse sunt proiectate pentru a fi sigure și eficiente pentru toate tipurile de piele. <br><br></p>
+                </div>
+                <div class="column" data-aos="fade-left">
+                    <img src="images/background.jpeg" alt="Image 4">
+                    <h2>Ceaiuri ecologice și variate</h2>
+                    <p>Ceaiurile sunt obținute din plante ecologice, cultivate în condiții naturale și fără a fi tratate cu pesticide sau alte substanțe nocive. Compania oferă o gamă largă de ceaiuri, inclusiv ceaiuri de plante medicinale, ceaiuri pentru detoxifiere și ceaiuri de relaxare.</p>
+            
+        </section>
+
+        <div id="titlu-and-border-section-colaj-img" class="titlu-and-border">
+            <h1 class="titlu-sectiune-sau-pagina">Galerie</h1>
+            <div class="border"></div>
+            <div class="border-2"></div>
+    
+            </div>
+
+        <section id="sectiune-colaj-img">
+            <div class="colaj-img-container">
+                <div class="box box1">
+                    <div class="overlay"><p><a href="#">Gustă natura pură!</a></p></div>
+                    <img src="images/imagine-colaj-1.jpg" alt="">
+                </div>
+                <div class="box box2">
+                    <div class="overlay"><a href="#"><p>Natura într-o cană - ceai ApiHerb</a></p></div>
+                    <img src="images/imagine-colaj-2.jpg" alt="">
+                </div>
+                <div class="box box3">
+                    <div class="overlay"><a href="#"><p>Gustul dulce al naturii, la tine acasă</a></p></div>
+                    <img src="images/imagine-colaj-3.jpg" alt="">
+                </div>
+                <div class="box box4">
+                    <div class="overlay"><a href="#"><p>Sănătatea ta este prioritatea noastră!</a></p></div>
+                    <img src="images/imagine-colaj-4.jpg" alt="">
+                </div>
+                <div class="box box5">
+                    <div class="overlay"><a href="#"><p>Alegerea naturală pentru sănătatea ta</a></p></div>
+                    <img src="images/imagine-colaj-5.jpg" alt="">
+                </div>
+                <div class="box box6">
+                    <div class="overlay"><a href="#"><p>Plantele și albinele - darurile naturii pentru tine</a></p></div>
+                    <img src="images/imagine-colaj-1.jpg" alt="">
+                </div>
+                <div class="box box7">
+                    <div class="overlay"><a href="#"><p>Gustul autentic al naturii în fiecare produs al nostru</a></p></div>
+                    <img src="images/imagine-colaj-2.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+<br><br><br><br><br><br><br><br><br>
+
+        <section id="sectiune-produse">
+            <h1 class="titlu-sectiune-sau-pagina">Produsele noastre</h1>
+            <div class="border"></div>
+            <div class="border-2"></div>
+
+           <sectionc class="sectiune-p">
+            <p>
+                O varietate de produse apicole, inclusiv miere și mixuri care combină ingrediente diverse precum plante, nuci, semințe și fructe uscate. Aceste produse sunt obținute prin procesarea cu atenție a surselor naturale care oferă un gust autentic și sănătos. Investind în aceste produse apicole, te bucuri de calitatea superioară a noilor arome și texturi.</p>
+           </section>
+
+            <div class="carduri_produse">
+
+                <div  data-aos="flip-left" id="card-apicole" class="content_card">
+                  <h3 class="h3_card_produse">Produse Apicole</h3>
+                  <p>Miere de albini, fagure...</p>
+                  <a href="pages/produse-apicole.html"><button class="card_buton_vezi">Vezi</button></a>
+                </div>
+           
+                <div  data-aos="flip-left" id="card-ceaiuri" class="content_card">
+                 <h3 class="h3_card_produse">Ceaiuri Naturale</h3>
+                 <p>Ceai din plante naturale...</p>
+                 <a href="pages/ceaiuri.html"><button class="card_buton_vezi">Vezi</button></a>
+               </div>
+           
+               <div  data-aos="flip-left" id="card-cosmetica" class="content_card">
+                 
+                 <h3 class="h3_card_produse">Cosmetică</h3>
+                 <p>Creme, elixiruri naturale...</p>
+                 <a href="pages/cosmetica.html"><button class="card_buton_vezi">Vezi</button></a>
+               </div>
+           
+               <div  data-aos="flip-left" id="card-altele" class="content_card">
+                 <h3 class="h3_card_produse">PLante Uscate</h3>
+                 <p>Petale, frunze uscate...</p>
+                 <a href="pages/plante-uscate.html"><button class="card_buton_vezi">Vezi</button></a>
+               </div>
+           
+              </div>
+
+            
+
+        </section>
+
+        <section class="sectiune-recenzii">
+
+            <div class="grup-carduri-recenzii">
+                <div class="interior-recenzii">
+                    <h1 class="titlu-sectiune-sau-pagina">Recenzii</h1>
+                    <div class="border"></div>
+                    <div class="border-2"></div>
+          
+                  <div class="row">
+                    <div  data-aos="zoom-in" class="col">
+                      <div class="card-recenzii">
+                        <img src="images/p1.jpg" alt="">
+                        <div class="name">Alexandra Stoica</div>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+          
+                        <p>
+                            Produsele apicole și ceaiurile de la această companie sunt cu adevărat uimitoare! Sunt atât de proaspete și de savuroase, iar faptul că sunt 100% naturale și sigure mă face să mă simt bine să le consum.
+                        </p>
+                      </div>
+                    </div>
+          
+                    <div  data-aos="zoom-in" class="col">
+                      <div class="card-recenzii">
+                        <img src="images/p2.gif" alt="">
+                        <div class="name">Dumitru Popescu</div>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+          
+                        <p>
+                            Ceaiurile pentru relaxare sunt pur și simplu uimitoare! Am încercat mai multe variante și sunt foarte mulțumit de fiecare dintre ele. Este atât de bine să ai o opțiune naturală și sigură pentru a te relaxa după o zi lungă și grea.
+                        </p>
+                      </div>
+                    </div>
+          
+                    <div  data-aos="zoom-in" class="col">
+                      <div class="card-recenzii">
+                        <img src="images/p3.png" alt="">
+                        <div class="name">Vasile Ionescu</div>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+          
+                        <p>
+                            Am fost impresionat de calitatea produselor apicole pe care le-am cumpărat de la această companie. Mierea este deosebit de delicioasă și are o textură minunată. Am făcut un obicei din a le cumpăra produsele de aici.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+
+        <section id="sectiune-faq">
+            <h1 class="titlu-sectiune-sau-pagina">Întrebări fregvente</h1>
+            <div class="border"></div>
+            <div class="border-2"></div>
+    
+            <div class="container-intrebare-faq">
+                <div class="intrebare-faq">
+                    <button>
+                        <span>Ce tipuri de produse apicole oferiți?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p> Oferim o varietate de produse apicole, cum ar fi miere, polen, propolis și alte produse derivate din albine.</p>
+                </div>
+    
+                <div class="intrebare-faq">
+                    <button>
+                        <span>Ce ingrediente folosiți în cosmeticele voastre naturale?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Folosim ingrediente naturale, cum ar fi uleiurile esențiale, extractele de plante și alte substanțe organice.</p>
+                </div>
+    
+                <div class="intrebare-faq">
+                    <button>
+                        <span>Cum sunt colectate produsele apicole pe care le comercializați?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Colectăm produsele apicole în mod natural, fără a fi expuse substanțelor chimice dăunătoare.</p>
+                </div>
+    
+                <div class="intrebare-faq">
+                    <button>
+                        <span>Ce tipuri de ceaiuri oferiți?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Oferim o gamă largă de ceaiuri, inclusiv ceaiuri de plante medicinale, ceaiuri pentru detoxifiere și ceaiuri de relaxare.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <span>
+
+            <a  href="https://instagram.com/apiherb?igshid=YmMyMTA2M2Y="><img class="retele" src="images/inst.logo.png"></a>
+
+            <a  href="https://www.facebook.com/ApiMaryEnergy"><img class="retele" src="images/facebook.logo.png"></a>
+
+            <a  href="tel:+37360030945"><img class="retele" src="images/viber.logo.png"></a>
+
+            <p>ApiHerb - Anenii Noi © 2023 Toate drepturile rezervate.</p>
+
+
+        </span>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
